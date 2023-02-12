@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+    auto-sklearn:
+        build: .
+        restart: always
+        expose:
+            - "8888"
+        logging:
+            driver: json-file
+            options:
+                max-size: "20k"
