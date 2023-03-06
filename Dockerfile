@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:python-3.7
+FROM jupyter/scipy-notebook:python-3.9
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 

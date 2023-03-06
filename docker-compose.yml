@@ -4,8 +4,8 @@ services:
     auto-sklearn:
         build: .
         restart: always
-        expose:
-            - "8888"
+        ports:
+            - 8888:8888
         logging:
             driver: json-file
             options:
